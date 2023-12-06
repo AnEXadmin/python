@@ -6,7 +6,6 @@ def type_int(a: int)->str:
     return str(a)
 x = 90
 
-#@type_int
 print("int->str:",type_int(x))
 
 def str_to_list(s: str)->list:
